@@ -1,12 +1,10 @@
 // Crie um programa que recebe um número inteiro positivo n (tamanho do array a ser
 // criado), e uma sequência de n números inteiros e os armazena em um array. O programa
 // deve em seguida percorrer este array e imprimir apenas os números pares.
-// Objetivo: Exercitar declaração, inicialização e operação em arrays, uso da classe Scanner,
-// estruturas de repetição, estruturas condicionais.
 
 import java.util.Scanner;
 
-class Main {
+class Question1 {
     static Scanner s = new Scanner(System.in);
 
     public static void main(String[] args) {
