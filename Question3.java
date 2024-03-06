@@ -14,15 +14,13 @@ class Question3 {
         String word = "";
         String[] list = { "gato", "moto", "restaurante", "cachorro" };
 
-        boolean isLooping = true;
-
-        while (isLooping) {
+        while (true) {
             System.out.println("type a word...");
             word = receiveWord();
             if (!word.equals("Sair")) {
                 System.out.println(findWordInList(word, list));
             } else {
-                isLooping = false;
+                break;
             }
         }
     }
